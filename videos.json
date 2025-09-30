@@ -1,0 +1,35 @@
+[
+  {
+    "id": "v1",
+    "title_en": "Replace a Broken Faucet Washer",
+    "title_hi": "टूटी हुई नली की वॉशर बदलें",
+    "desc_en": "Short DIY video: step-by-step to replace the washer and stop a leak. Tools: wrench, screwdriver.",
+    "desc_hi": "छोटी DIY वीडियो: वॉशर बदलने का चरण-दर-चरण तरीका और रिसाव बंद करें। टूल्स: रिंच, स्क्रूड्राइवर।",
+    "url": "https://www.youtube.com/embed/9bZkp7q19f0",
+    "premium": false,
+    "duration": "4:20",
+    "tags": ["plumbing", "beginner"]
+  },
+  {
+    "id": "v2",
+    "title_en": "Install a Wall-Mounted Shelf (Premium)",
+    "title_hi": "दीवार पर शेल्फ़ लगाना (प्रीमियम)",
+    "desc_en": "Premium, in-depth tutorial: measuring, drilling into tile, using anchors correctly.",
+    "desc_hi": "प्रीमियम विस्तृत ट्यूटोरियल: मापना, टाइल में ड्रिल करना, सही एंकर का उपयोग।",
+    "url": "https://www.youtube.com/embed/3JZ_D3ELwOQ",
+    "premium": true,
+    "duration": "12:10",
+    "tags": ["carpentry", "advanced"]
+  },
+  {
+    "id": "v3",
+    "title_en": "Fix a Tripping Switch Quickly",
+    "title_hi": "ट्रिपिंग स्विच को जल्दी ठीक करें",
+    "desc_en": "Quick checks to diagnose and fix a tripping circuit breaker safely.",
+    "desc_hi": "ट्रिपिंग सर्किट ब्रेकर का सुरक्षित तरीके से निदान और मरम्मत करने के त्वरित तरीके।",
+    "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "premium": false,
+    "duration": "6:05",
+    "tags": ["electrical", "safety"]
+  }
+]

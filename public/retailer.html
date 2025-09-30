@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HandyHub Retailer Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Retailer Portal</h1>
+    <p>Post your DIY products to create AR tutorials</p>
+  </header>
+
+  <section>
+    <h2>Add a DIY Product</h2>
+    <form id="retailerForm">
+      <input type="text" id="prodName" placeholder="Product Name" required>
+      <input type="text" id="prodDesc" placeholder="Product Description" required>
+      <input type="text" id="prodShop" placeholder="Shop Name" required>
+      <button type="submit">Add Product</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Posted Products</h2>
+    <div class="grid" id="productList"></div>
+  </section>
+
+  <footer class="footer">
+    <span>© 2025 HandyHub India</span>
+  </footer>
+
+  <script src="retailer.js"></script>
+</body>
+</html>

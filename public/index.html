@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>HandyHub — DIY hardware videos (India)</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%230062a3'/%3E%3Ctext x='16' y='21' font-size='12' text-anchor='middle' fill='white' font-family='Arial'%3EHH%3C/text%3E%3C/svg%3E" alt="">
+      <div>
+        <div class="title">HandyHub</div>
+        <div class="subtitle" id="subtitle">DIY hardware videos — retailers & consumers</div>
+      </div>
+    </div>
+
+   <div class="controls">
+  <button id="loginBtn" class="btn outline">Login / Register</button>
+  <button id="profileBtn" class="btn outline">Profile</button>
+  <button id="logoutBtn" class="btn outline">Logout</button>
+  <select id="langSelect">
+    <option value="en">EN</option>
+    <option value="hi">HI</option>
+  </select>
+</div>
+
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1 id="heroTitle">Learn, fix, sell — DIY videos for hardware.</h1>
+      <p id="heroSub">Short, clear, India-focused guides from retailers & experts.</p>
+      <div class="cta">
+        <button id="viewGallery" class="btn primary">View Videos</button>
+        <button id="becomeSeller" class="btn outline">Upload / Become Seller</button>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery hidden">
+      <div class="toolbar">
+        <div>
+          <input id="search" placeholder="Search videos, tags..." />
+        </div>
+        <div class="filters">
+          <label><input id="filterPremium" type="checkbox" /> Show only premium</label>
+          <span id="userStatus"></span>
+        </div>
+      </div>
+
+      <div id="videosGrid" class="grid"></div>
+    </section>
+  </main>
+
+  <!-- Login/Register modal -->
+  <div id="authModal" class="modal hidden">
+    <div class="modal-content">
+      <button id="closeAuth" class="close">✕</button>
+      <h2 id="authTitle">Login or Register</h2>
+
+      <div class="tabs">
+        <button id="tabLogin" class="tab active">Login</button>
+        <button id="tabRegister" class="tab">Register</button>
+      </div>
+
+      <div id="loginForm">
+        <input id="loginEmail" type="email" placeholder="Email" />
+        <input id="loginPassword" type="password" placeholder="Password" />
+        <button id="doLogin" class="btn primary">Login</button>
+      </div>
+
+      <div id="registerForm" class="hidden">
+        <input id="regName" placeholder="Full name" />
+        <input id="regEmail" type="email" placeholder="Email" />
+        <input id="regPassword" type="password" placeholder="Password" />
+        <button id="doRegister" class="btn primary">Register</button>
+      </div>
+
+      <div id="authMsg" class="small muted"></div>
+    </div>
+  </div>
+
+  <!-- Video preview modal -->
+  <div id="videoModal" class="modal hidden">
+    <div class="modal-content wide">
+      <button id="closeVideo" class="close">✕</button>
+      <h3 id="videoTitle"></h3>
+      <div id="videoFrame" class="videoFrame"></div>
+      <p id="videoDesc"></p>
+      <div class="videoActions">
+        <button id="upgradeBtn" class="btn primary hidden">Upgrade to Premium</button>
+        <button id="closeVideo2" class="btn outline">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div>© HandyHub — Prototype • India</div>
+    <div class="muted small">Multi-language: English + हिन्दी • LocalStorage demo</div>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>
